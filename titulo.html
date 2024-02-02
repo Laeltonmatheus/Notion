@@ -97,11 +97,11 @@ function dispalyGreetings(today){
         hrs = today.getHours();
         name=""
         if (hrs < 12)
-            greet = 'Bom Dia  '+name;
+            greet = 'Bom Dia  '+Laelton;
         else if (hrs >= 12 && hrs <= 17)
-            greet = 'Boa Tarde '+name;
+            greet = 'Boa Tarde '+Laelton;
         else if (hrs >= 17 && hrs <= 24)
-            greet = 'Boa Noite  '+name;
+            greet = 'Boa Noite  '+Laelton;
         document.getElementById('greet').innerHTML = greet;
 
     }
